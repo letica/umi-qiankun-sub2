@@ -1,3 +1,7 @@
 export default {
-  npmClient: 'pnpm'
+  npmClient: 'pnpm',
+  plugins: ["@umijs/plugins/dist/qiankun"],
+  qiankun: {
+    slave: {},
+  },
 };
